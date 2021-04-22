@@ -39,4 +39,4 @@ if (__name__ == "__main__"):
         if (response.url=="https://selfreport.shu.edu.cn/DayReport.aspx"):
             report_leave_school.main(cookie,location)
         elif (response.url==url):
-            report_at_school_BS.main(cookie, location)
+            report_at_school.main(cookie, location)
